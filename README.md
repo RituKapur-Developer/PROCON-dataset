@@ -10,5 +10,6 @@ The language-specific PROCON datasets were created by processing 30400+ source f
 
 DESCo system when trained on PROCON datasets outperforms one of the state-of-the-art methods with an improvement of 44.9%. When compared with the PROMISE repository's CK's metrics dataset, DESCo-PROCON combination achieves an improvement of 29.9%. We validated the correctness of our system, by compared the performance of 12 different ML algorithms with 50+ different combinations of their key parameters. Our system achieves the best results with SVM technique with a mean accuracy measure of 80.8%. DESCo paper is available at https://dl.acm.org/doi/abs/10.1145/3384517.
 
+![alt text](https://github.com/RituKapur-Developer/PROCON-dataset/blob/main/DEfectEstimation_design.pdf)
 
 
