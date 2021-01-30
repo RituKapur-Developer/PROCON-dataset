@@ -23,7 +23,8 @@ PROgramming CONstructs (PROCON) metrics dataset was developed to capture a repre
 ![PROCONconstructs](https://user-images.githubusercontent.com/76653789/106340646-c389b680-629a-11eb-8d97-3fdfa6501a7b.png)
 
 ## What does the PROCON dataset comprise?
-To develop the PROCON dataset, we extracted PROCON metrics' values by processing 30400+ source files from 20+ GitHub repositories. The source files were written in four popular programming languages, viz. C, C++, Java, and Python. We used ANTLR tool to parse the source code, and develop a feature extractor module to extract the PROCON metrics values. As the programming constructs differ among various programming languages, we developed language-specific PROCON datasets.
+To develop the PROCON dataset, we extracted PROCON metrics' values by processing 30400+ source files from 20+ GitHub repositories. The source files were written in four popular programming languages, viz. C, C++, Java, and Python. We used ANTLR tool to parse the source code, and develop a feature extractor module to extract the PROCON metrics values. As the programming constructs differ among various programming languages, we developed language-specific PROCON datasets. The complete details of source files in language-specific PROCON datasets is as follows:
+![sourceFiles](https://user-images.githubusercontent.com/76653789/106340959-ca64f900-629b-11eb-8ad8-d5814b4af5ac.png)
  
 ## How does DESCo perform?
 DESCo system when trained on PROCON datasets outperforms one of the state-of-the-art methods with an improvement of 44.9%. When compared with the PROMISE repository's CK's metrics dataset, DESCo-PROCON combination achieves an improvement of 29.9%. We validated the correctness of our system, by compared the performance of 12 different ML algorithms with 50+ different combinations of their key parameters. Our system achieves the best results with SVM technique with a mean accuracy measure of 80.8%. DESCo paper is available at https://dl.acm.org/doi/abs/10.1145/3384517.
@@ -32,6 +33,14 @@ DESCo system when trained on PROCON datasets outperforms one of the state-of-the
 
 ![PROCON-design](https://user-images.githubusercontent.com/76653789/106337775-612cb800-6292-11eb-9e2b-831367de29b3.png)
 
+## Installation instructions
+
+1. If not already available, install **MySQL 5.7** or higher on your machine. 
+2. Ensure that you have at least 10GB of disk space available. 
+3. Download the **PROCON.sql** file from the this github repository. You can also clone the entire repository and then unzip the contents. 
+5. Import the data into your MySQL server using this command: **mysql -u #your_username# -p #database_name# > #path_to_PROCON.sql_file#** and then enter your password.
+
+**Note:** *Replace #your_username# with your mysql username and  #database_name# with the mysql database name when the data is to be imported.*
 
 ### References
 
