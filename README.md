@@ -20,10 +20,12 @@ Following are not considered the programming decisions:
 
 ## What are PROCON metrics?
 PROgramming CONstructs (PROCON) metrics dataset was developed to capture a representation of programming constructs usage patterns in a given source code. For a programming construct **X** present in a source code file, PROCON metrics imply the **max, min, avg,** and **stdDev** of the **count, depth,** and **length** of **X** at **function, class,** and **file** level. The complete detail of the programming constructs considered is shown in the table below:
+
 ![PROCONconstructs](https://user-images.githubusercontent.com/76653789/106340646-c389b680-629a-11eb-8d97-3fdfa6501a7b.png)
 
 ## What does the PROCON dataset comprise?
 To develop the PROCON dataset, we extracted PROCON metrics' values by processing 30400+ source files from 20+ GitHub repositories. The source files were written in four popular programming languages, viz. C, C++, Java, and Python. We used ANTLR tool to parse the source code, and develop a feature extractor module to extract the PROCON metrics values. As the programming constructs differ among various programming languages, we developed language-specific PROCON datasets. The complete details of source files in language-specific PROCON datasets is as follows:
+
 ![sourceFiles](https://user-images.githubusercontent.com/76653789/106340959-ca64f900-629b-11eb-8ad8-d5814b4af5ac.png)
  
 ## How does DESCo perform?
@@ -49,3 +51,12 @@ DESCo system when trained on PROCON datasets outperforms one of the state-of-the
 3. M. Allamanis, E. T. Barr, C. Bird, and C. Sutton. “Learning natural codingconventions.”  22nd ACM SIGSOFT International Symposium on Foundations of Software Engineering. ACM,  2014, pp. 281–293.
 4. F. Deissenboeck and M. Pizka. “Concise and consistent naming.” Software Quality Journal, vol. 14, no. 3, pp. 261–282, 2006.
 5. D. Lawrie, C. Morrell,  H. Feild, and D. Binkley. “What’s  in a name? a study of identifiers.” 14th IEEE International Conference on Program Comprehension. IEEE, 2006, pp. 3–12.
+
+### Contributors 
+Ritu Kapur and Balwinder Sodhi, Indian Institute of Technology, Ropar, India.
+
+### Code of Conduct
+Please note that this project is released with a **Contributor Code of Conduct.** By participating in this project you agree to abide by its terms.
+
+##Copyright
+GNU Affero License &copy; 2018 Ritu Kapur and Balwinder Sodhi.
