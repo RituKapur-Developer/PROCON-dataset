@@ -60,3 +60,9 @@ Please note that this project is released with a **Contributor Code of Conduct.*
 
 ## Copyright
 GNU Affero License &copy; 2018 Ritu Kapur and Balwinder Sodhi.
+
+## Citation Method
+Kapur, Ritu; Sodhi, Balwinder (2021): PROCON datasets for Defect Estimation. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13667387.v1 
+
+## Need Help? 
+**Contact:** dev.ritu.kapur@gmail.com
