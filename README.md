@@ -58,5 +58,5 @@ Ritu Kapur and Balwinder Sodhi, Indian Institute of Technology, Ropar, India.
 ### Code of Conduct
 Please note that this project is released with a **Contributor Code of Conduct.** By participating in this project you agree to abide by its terms.
 
-##Copyright
+## Copyright
 GNU Affero License &copy; 2018 Ritu Kapur and Balwinder Sodhi.
