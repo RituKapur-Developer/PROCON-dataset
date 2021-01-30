@@ -19,7 +19,8 @@ Following are not considered the programming decisions:
 
 
 ## What are PROCON metrics?
-PROgramming CONstructs (PROCON) metrics dataset was developed to capture a representation of programming constructs usage patterns in a given source code. For a programming construct **X** present in a source code file, PROCON metrics imply the **max, min, avg,** and **stdDev** of the **count, depth,** and **length** of **X** at **function, class,** and **file** level. 
+PROgramming CONstructs (PROCON) metrics dataset was developed to capture a representation of programming constructs usage patterns in a given source code. For a programming construct **X** present in a source code file, PROCON metrics imply the **max, min, avg,** and **stdDev** of the **count, depth,** and **length** of **X** at **function, class,** and **file** level. The complete detail of the programming constructs considered is shown in the table below:
+![PROCONconstructs](https://user-images.githubusercontent.com/76653789/106340646-c389b680-629a-11eb-8d97-3fdfa6501a7b.png)
 
 ## What does the PROCON dataset comprise?
 To develop the PROCON dataset, we extracted PROCON metrics' values by processing 30400+ source files from 20+ GitHub repositories. The source files were written in four popular programming languages, viz. C, C++, Java, and Python. We used ANTLR tool to parse the source code, and develop a feature extractor module to extract the PROCON metrics values. As the programming constructs differ among various programming languages, we developed language-specific PROCON datasets.
